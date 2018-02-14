@@ -7,3 +7,9 @@
 [submodule "epad-common"]
 	path = epad-common
 	url = https://github.com/RubinLab/epad-common
+[submodule "aimapi"]
+	path = aimapi
+	url = https://github.com/RubinLab/aimapi
+[submodule "epad-dto"]
+	path = epad-dto
+	url = https://github.com/RubinLab/epad-dto
