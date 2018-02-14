@@ -9,27 +9,14 @@ Clone the repository with all submodules
 git clone --recursive https://github.com/4QuantOSS/epad_full
 ```
 
-## overall
+## Build WAR
+
 ```
 cd isis-epad-project
-mvn install -P opensource
+mvn package -P opensource
 ```
 
-## Submodules
-
-### AIM4API
-
+## Start WAR
 ```
-cd aimapi/
-mvn install
-cd ..
+../epad-ws/target/epad-ws-1.1.war
 ```
-
-### Common
-```
-cd epad-common/
-mvn install
-cd ..
-```
-
-### WS
