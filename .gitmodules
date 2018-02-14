@@ -1,0 +1,9 @@
+[submodule "isis-epad-project"]
+	path = isis-epad-project
+	url = https://github.com/RubinLab/isis-epad-project.git
+[submodule "epad-ws"]
+	path = epad-ws
+	url = https://github.com/4QuantOSS/epad-ws
+[submodule "epad-common"]
+	path = epad-common
+	url = https://github.com/RubinLab/epad-common
